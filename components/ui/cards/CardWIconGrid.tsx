@@ -1,4 +1,4 @@
-import CardWImage from "./CardWImage";
+import CardWIcon from "./CardWIcon";
 
 interface CardWImageProps {
   items: CardItem[]
@@ -11,7 +11,7 @@ interface CardItem {
   image: string
 }
 
-function CardWImageGrid({ items, header }: CardWImageProps) {
+export default function CardWIconGrid({ items, header }: CardWImageProps) {
   return (
     <section className="w-screen">
       <h2>{header}</h2>
@@ -20,10 +20,10 @@ function CardWImageGrid({ items, header }: CardWImageProps) {
             <div
               key={index}
             >
-              <CardWImage 
+              <CardWIcon 
                 header={card.header}
                 description={card.description}
-                image={card.image}
+                icon={card.image}
               />
             </div>
           ))}
@@ -31,5 +31,3 @@ function CardWImageGrid({ items, header }: CardWImageProps) {
     </section>
   )
 }
-
-export default CardWImageGrid

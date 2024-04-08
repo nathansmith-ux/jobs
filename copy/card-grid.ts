@@ -1,22 +1,17 @@
 export const items = [
   {
-    header: "hello",
+    header: "Front End Development",
     description: "hello",
-    image: "/public/next.svg"
+    image: "/front.jpg"
   },
   {
-    header: "wazzup",
+    header: "Back End Development",
     description: "hello",
-    image: "/public/next.svg"
+    image: "/backend.jpg"
   },
   {
-    header: "yooool",
+    header: "SEO & Digital Marketing",
     description: "hello",
-    image: "/public/next.svg"
+    image: "/seo.jpg"
   },
-  {
-    header: "ah",
-    description: "hello",
-    image: "/public/next.svg"
-  }
 ]
