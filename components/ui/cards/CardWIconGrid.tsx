@@ -8,7 +8,7 @@ interface CardWImageProps {
 interface CardItem {
   header: string,
   description: string,
-  image: string
+  image?: string
 }
 
 export default function CardWIconGrid({ items, header }: CardWImageProps) {

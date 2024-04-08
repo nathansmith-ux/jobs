@@ -15,3 +15,18 @@ export const items = [
     image: "/seo.jpg"
   },
 ]
+
+export const reasons = [
+  {
+    header: "React",
+    description: "hello",
+  },
+  {
+    header: "jQuery",
+    description: "hello",
+  },
+  {
+    header: "Plain Old Vanilla JS",
+    description: "hello",
+  },
+]

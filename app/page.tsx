@@ -1,5 +1,5 @@
 import { navItems } from '@/copy/navigation'
-import { items } from "@/copy/card-grid";
+import { items, reasons } from "@/copy/card-grid";
 
 import CardWIconGrid from '@/components/ui/cards/CardWIconGrid';
 import NavBar from "@/components/ui/navigation/NavBar";
@@ -26,12 +26,25 @@ export default function Home() {
         header="My SEO Tech Stack"
         items={items}
       />
-      <HeroWImage 
+      <CardWIconGrid
+        header="Why I Want To Work At Your Company"
+        items={reasons}
+      />
+      <HeroWImage
+        header="Meet TaiL"
+        description="hello" 
+        image="/dungeon-master.webp"
       />
       <HeroWImage 
         position="right"
+        header="Schema Forge"
+        description="hello" 
+        image="/coloredLogo.png"
       />
       <HeroWImage 
+        header="About Me"
+        description="hello" 
+        image="/head-shot.jpeg"
       />
       <Footer />
     </main>

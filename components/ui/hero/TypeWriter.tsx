@@ -1,7 +1,6 @@
 "use client";
 
 import { TypewriterEffectSmooth } from "./TypeWriterHelper";
-import Link from "next/link";
 import { words } from "@/copy/type-writer";
 
 export function Typewriter() {

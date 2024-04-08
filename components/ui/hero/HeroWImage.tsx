@@ -34,6 +34,7 @@ function HeroImage({ image }: HeroImageProps) {
         alt="Image" 
         height="500"
         width="500"
+        className="rounded-xl"
       />
     </div>
   );
