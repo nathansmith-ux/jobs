@@ -1,7 +1,6 @@
 import { navItems } from '@/copy/navigation'
 import { items } from "@/copy/card-grid";
 
-import CardWImageGrid from "@/components/ui/cards/CardWImageGrid";
 import CardWIconGrid from '@/components/ui/cards/CardWIconGrid';
 import NavBar from "@/components/ui/navigation/NavBar";
 import HeroWImage from "@/components/ui/hero/HeroWImage";
@@ -15,17 +14,22 @@ export default function Home() {
         navItems={navItems}
       />
       <Typewriter />
-      <CardWImageGrid
-        header="My Experience & Skills" 
+      <CardWIconGrid
+        header="My Frontend Tech Stack"
         items={items}
       />
       <CardWIconGrid
-        header="Why I Want To Work At Your Company"
+        header="My Backend Tech Stack"
+        items={items}
+      />
+      <CardWIconGrid
+        header="My SEO Tech Stack"
         items={items}
       />
       <HeroWImage 
       />
       <HeroWImage 
+        position="right"
       />
       <HeroWImage 
       />

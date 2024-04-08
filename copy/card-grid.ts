@@ -1,16 +1,16 @@
 export const items = [
   {
-    header: "Front End Development",
+    header: "React",
     description: "hello",
     image: "/front.jpg"
   },
   {
-    header: "Back End Development",
+    header: "jQuery",
     description: "hello",
     image: "/backend.jpg"
   },
   {
-    header: "SEO & Digital Marketing",
+    header: "Plain Old Vanilla JS",
     description: "hello",
     image: "/seo.jpg"
   },
