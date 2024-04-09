@@ -32,7 +32,7 @@ export default function Home() {
       />
       <CardWIconGrid
         header="Why I Want To Work At Your Company"
-        description="Hello There I am doing this"
+        description="Below are the three main reasons that I want to work for your company"
         items={reasons}
       />
       <HeroWImage
