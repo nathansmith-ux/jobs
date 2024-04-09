@@ -46,9 +46,18 @@ function HeroImage({ image }: HeroImageProps) {
 }
 
 export default function HeroWImage({ header, description, image, link, position = 'left' }: HeroWImageProps) {
+
   const isImageLeft = position === 'left';
+  let sectionId;
+  
+  if (header === "Meet TaiL") {
+    sectionId = "meet-tail-section";
+  } else if (header === "About Me") {
+    sectionId = "about-me";
+  }
+  
   return (
-    <section>
+    <section id={sectionId}>
       <div className="grid w-screen px-12 py-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         {isImageLeft && <HeroImage image={image} />}
         <HeroText 
