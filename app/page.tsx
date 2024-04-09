@@ -55,7 +55,7 @@ export default function Home() {
         link="https://www.whitewallsmedia.ca/"
       />
       <SocialContacts 
-        header="Find Me On..."
+        header="I Would Love To Connect & Continue The Conversation"
         description="You can find me on LinkedIn or Github"
       />
       <Footer />

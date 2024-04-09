@@ -1,3 +1,4 @@
+import GitHubButton from "../button/GitHubButton"
 import LinkedInButton from "../button/LinkedInButton"
 
 interface SocialContactsProps {
@@ -20,7 +21,7 @@ export default function SocialContacts({ header, description }: SocialContactsPr
             <LinkedInButton />
           </div>
           <div>
-          <LinkedInButton />
+            <GitHubButton />
           </div>
         </div>
       </div>

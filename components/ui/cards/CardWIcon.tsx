@@ -1,6 +1,12 @@
 import JqueryIcon from "../icon/JqueryIcon"
 import VanillaJsIcon from "../icon/VanillaJsIcon"
 import ReactIcon from "../icon/ReactIcon"
+import RubyOnRailsIcon from "../icon/RubyOnRailsIcon"
+import ExpressIcon from "../icon/ExpressIcon"
+import NextJsIcon from "../icon/NextJsIcon"
+import AhrefsIcon from "../icon/AhrefsIcon"
+import Ga4Icon from "../icon/Ga4Icon"
+import ScreamingFrogIcon from "../icon/ScreamingFrogIcon"
 
 interface CardWIconProps {
   header: string
@@ -15,7 +21,13 @@ type IconComponents = {
 const ICONS: IconComponents = {
   jquery: JqueryIcon,
   vanilla: VanillaJsIcon,
-  react: ReactIcon
+  react: ReactIcon,
+  ruby: RubyOnRailsIcon,
+  express: ExpressIcon,
+  next: NextJsIcon,
+  ahrefs: AhrefsIcon,
+  ga4: Ga4Icon,
+  screamingFrog: ScreamingFrogIcon
 };
 
 export default function CardWIcon({ header, description, icon}: CardWIconProps) {

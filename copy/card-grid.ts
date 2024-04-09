@@ -18,37 +18,37 @@ export const frontEnd = [
 
 export const backEnd = [
   {
-    header: "React",
+    header: "Nextjs",
     description: "hello",
-    image: "react"
+    image: "next"
   },
   {
-    header: "jQuery",
+    header: "Express",
     description: "hello",
-    image: "jquery"
+    image: "express"
   },
   {
-    header: "Plain Old Vanilla JS",
+    header: "Ruby On Rails",
     description: "hello",
-    image: "vanilla"
+    image: "ruby"
   },
 ]
 
 export const seo = [
   {
-    header: "React",
+    header: "Ahrefs",
     description: "hello",
-    image: "react"
+    image: "ahrefs"
   },
   {
-    header: "jQuery",
+    header: "GA4",
     description: "hello",
-    image: "jquery"
+    image: "ga4"
   },
   {
-    header: "Plain Old Vanilla JS",
+    header: "Screaming Frog",
     description: "hello",
-    image: "vanilla"
+    image: "screamingFrog"
   },
 ]
 
