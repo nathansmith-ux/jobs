@@ -50,7 +50,7 @@ export default function Home() {
       />
       <HeroWImage 
         header="About Me"
-        description="hello" 
+        description="Hey There! My name is Nathan Smith and I have 3+ years of experience as an SEO with a year of agency experience. I transitioned into the tech industry through a Lighthouse Labs Bootcamp where I learned how to think like a developer and now am able to build full stack web applications from the ground up then optimize them for Google Search." 
         image="/head-shot.jpeg"
         link="https://www.whitewallsmedia.ca/"
       />

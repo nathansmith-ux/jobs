@@ -56,16 +56,16 @@ export const reasons = [
   {
     header: "Team Culture",
     description: "I thrive in a collaborative and supportive team setting, where open communication and mutual respect drive collective success.",
-    image: "ahrefs"
+    image: "first"
   },
   {
     header: "Mentorship Opportunities",
     description: "I am passionate about both seeking mentorship and mentoring others, recognizing the value of shared knowledge and experience for professional development.",
-    image: "ahrefs"
+    image: "second"
   },
   {
     header: "Fast Not Perfect",
     description: "I emphasize quick, decisive action and continuous learning, prioritizing effective results over perfection in dynamic environments.",
-    image: "ahrefs"
+    image: "third"
   },
 ]

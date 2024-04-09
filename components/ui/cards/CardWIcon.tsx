@@ -7,6 +7,9 @@ import NextJsIcon from "../icon/NextJsIcon"
 import AhrefsIcon from "../icon/AhrefsIcon"
 import Ga4Icon from "../icon/Ga4Icon"
 import ScreamingFrogIcon from "../icon/ScreamingFrogIcon"
+import FirstIcon from "../icon/FirstIcon"
+import SecondIcon from "../icon/SecondIcon"
+import ThirdIcon from "../icon/ThirdIcon"
 
 interface CardWIconProps {
   header: string
@@ -27,7 +30,10 @@ const ICONS: IconComponents = {
   next: NextJsIcon,
   ahrefs: AhrefsIcon,
   ga4: Ga4Icon,
-  screamingFrog: ScreamingFrogIcon
+  screamingFrog: ScreamingFrogIcon,
+  first: FirstIcon,
+  second: SecondIcon,
+  third: ThirdIcon
 };
 
 export default function CardWIcon({ header, description, icon}: CardWIconProps) {
