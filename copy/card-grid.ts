@@ -1,18 +1,54 @@
-export const items = [
+export const frontEnd = [
   {
     header: "React",
     description: "hello",
-    image: "/front.jpg"
+    image: "react"
   },
   {
     header: "jQuery",
     description: "hello",
-    image: "/backend.jpg"
+    image: "jquery"
   },
   {
     header: "Plain Old Vanilla JS",
     description: "hello",
-    image: "/seo.jpg"
+    image: "vanilla"
+  },
+]
+
+export const backEnd = [
+  {
+    header: "React",
+    description: "hello",
+    image: "react"
+  },
+  {
+    header: "jQuery",
+    description: "hello",
+    image: "jquery"
+  },
+  {
+    header: "Plain Old Vanilla JS",
+    description: "hello",
+    image: "vanilla"
+  },
+]
+
+export const seo = [
+  {
+    header: "React",
+    description: "hello",
+    image: "react"
+  },
+  {
+    header: "jQuery",
+    description: "hello",
+    image: "jquery"
+  },
+  {
+    header: "Plain Old Vanilla JS",
+    description: "hello",
+    image: "vanilla"
   },
 ]
 

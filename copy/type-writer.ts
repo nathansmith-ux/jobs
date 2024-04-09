@@ -7,6 +7,6 @@ export const words = [
   },
   {
     text: "Web Developer",
-    className: "text-blue-500 dark:text-blue-500",
+    className: "dark:text-blue-500",
   },
 ];
