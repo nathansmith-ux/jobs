@@ -6,7 +6,7 @@ export const frontEnd = [
   },
   {
     header: "jQuery",
-    description: "A fast, small, and feature-rich JavaScript library that simplifies HTML document traversing, event handling, and Ajax.",
+    description: "A fast, small, and feature-rich JavaScript library that simplifies event handling and Ajax.",
     image: "jquery"
   },
   {
@@ -19,7 +19,7 @@ export const frontEnd = [
 export const backEnd = [
   {
     header: "Nextjs",
-    description: "A React framework offering server-side rendering and generating static websites for React-based web applications.",
+    description: "A React framework offering server-side and client side rendering options for React-based web applications.",
     image: "next"
   },
   {
@@ -37,7 +37,7 @@ export const backEnd = [
 export const seo = [
   {
     header: "Ahrefs",
-    description: "An advanced SEO toolset for analyzing websites and improving search engine visibility.",
+    description: "An advanced SEO toolset for identifying keywords with both informational and transactional intent.",
     image: "ahrefs"
   },
   {
@@ -47,7 +47,7 @@ export const seo = [
   },
   {
     header: "Screaming Frog",
-    description: "A website crawler tool for analyzing the SEO health of a website, used for auditing on-site SEO issues.",
+    description: "A website crawler tool for diggint into the guts of websites to find issues that can contribute to user frustrations.",
     image: "screamingFrog"
   },
 ];
@@ -60,7 +60,7 @@ export const reasons = [
   },
   {
     header: "Mentorship Opportunities",
-    description: "I am passionate about both seeking mentorship and mentoring others, recognizing the value of shared knowledge and experience for professional development.",
+    description: "I am passionate about both seeking mentorship and mentoring others, recognizing the value of shared knowledge.",
     image: "second"
   },
   {

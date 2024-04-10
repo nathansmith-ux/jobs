@@ -17,17 +17,17 @@ export default function Home() {
       <Typewriter />
       <CardWIconGrid
         header="My Frontend Tech Stack"
-        description="I specialize in using React, jQuery, and Vanilla JavaScript for building responsive and engaging web interfaces. My approach focuses on creating intuitive user experiences with efficient and dynamic content, ensuring both functionality and aesthetic appeal in web applications."
+        description="I specialize in using React, jQuery, and Vanilla JavaScript for building responsive and engaging web interfaces. My approach focuses on creating intuitive user experiences with efficient and dynamic content, creating function & beautiful web apps"
         items={frontEnd}
       />
       <CardWIconGrid
         header="My Backend Tech Stack"
-        description="My backend expertise encompasses Next.js, Express, and Ruby on Rails, focusing on developing scalable and efficient server-side solutions. I aim to create robust web applications that are maintainable and high-performing."
+        description="My backend expertise encompasses Next.js, Express, and Ruby on Rails, focusing on developing scalable, efficient and fast server-side solutions."
         items={backEnd}
       />
       <CardWIconGrid
         header="My SEO Tech Stack"
-        description="Utilizing tools like Ahrefs, GA4, and Screaming Frog, I focus on optimizing websites for enhanced search engine visibility. My strategy includes thorough audits, keyword research, and leveraging data-driven techniques for improved search rankings and user engagement."
+        description="Utilizing tools like Ahrefs, GA4, and Screaming Frog, I focus on optimizing websites to enhance organic traffic. My strategy includes thorough technical audits, keyword research, and creating valuable content to improve rankings & increasenuser engagement."
         items={seo}
       />
       <CardWIconGrid

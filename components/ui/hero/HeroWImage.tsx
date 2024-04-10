@@ -21,7 +21,7 @@ interface HeroWImageProps {
 
 function HeroText({ header, description, link }: HeroTextProps) {
   return (
-    <div className="mr-auto place-self-center lg:col-span-7">
+    <div className="mr-auto place-self-center lg:col-span-7 xl:px-20">
       <h2 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">{header}</h2>
       <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">{description}</p>
       <VisitButton 
@@ -33,12 +33,12 @@ function HeroText({ header, description, link }: HeroTextProps) {
 
 function HeroImage({ image }: HeroImageProps) {
   return (
-    <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+    <div className="hidden lg:mt-0 lg:col-span-5 lg:flex xl:px-20">
       <Image 
         src={image}
         alt="Image" 
-        height="500"
-        width="500"
+        height="550"
+        width="550"
         className="rounded-xl"
       />
     </div>
